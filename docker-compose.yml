@@ -1,0 +1,8 @@
+services:
+  web:
+    build: .
+    image: mynginx:latest
+    ports: 
+      - 8282:80
+    container-name: web-server
+    restart: unless-stopped
