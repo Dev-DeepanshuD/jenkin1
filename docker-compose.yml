@@ -4,5 +4,5 @@ services:
     image: mynginx:latest
     ports: 
       - 8282:80
-    container-name: web-server
+    container_name: web-server
     restart: unless-stopped
